@@ -46,5 +46,6 @@ form.addEventListener('submit', async (e) => {
  // ✅ Usuario autenticado
  const usuario = data.user;
  console.log('Usuario logueado:', usuario);
+ location.reload(); // recargar para actualizar la UI
 });
 }
